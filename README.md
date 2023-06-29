@@ -394,41 +394,41 @@ Here are the pieces of functionality that should be built out for the backend:
     - [x] Write a `getDatabaseUri` function so that all the tests pass
   - [x] Commit all work to `git`
   - [x] The project should now be ready to go!
-- [ ] **PostgreSQL database**
+- [x] **PostgreSQL database**
   - Time bring in a PostgreSQL database client as the application's persistence layer
   - Make sure the PostgreSQL server is running
   - Create two files at the root of the project:
-    - [ ] `lifetracker-schema.sql`
-      - [ ] This script should:
-        - [ ] Create a `users` table with the following columns:
-          - [ ] `id`
-          - [ ] `username`
-          - [ ] `password`
-          - [ ] `first_name`
-          - [ ] `last_name`
-          - [ ] `email`
-          - [ ] `created_at`
-          - [ ] `updated_at`
-        - [ ] Create a `nutrition` table with the following columns:
-          - [ ] `id`
-          - [ ] `name`
-          - [ ] `category`
-          - [ ] `calories`
-          - [ ] `image_url`
-          - [ ] `user_id`
-          - [ ] `created_at`
-        - [ ] **Any other tables** that the application might depend on
-    - [ ] `lifetracker.sql`
-      - [ ] This script should:
-        - [ ] 1. Let the user know that they're about to delete the `lifetracker` database and prompt them to confirm that is what they want.
-        - [ ] 2. Drop the `lifetracker` database and then create a new `lifetracker` database, before connecting to the `lifetracker` database.
-        - [ ] 3. It should then run the `lifetracker-schema.sql` file.
-        - [ ] Follow the exact same steps for `1`, `2`, and `3`, but with the `lifetracker_test` database.
-  - [ ] Setup the database by running `psql -f lifetracker.sql`
-  - [ ] Create a new file at the root of the project called `db.js`. In that file:
-    - [ ] Import the `getDatabaseUri` function from the `config.js` file.
-    - [ ] Initialize a new PostgreSQL client with the `pg` package and connect to PostgreSQL using any necessary config variables.
-    - [ ] Connect to PostgreSQL and log a message to the terminal on success or failure.
+    - [x] `lifetracker-schema.sql`
+      - [x] This script should:
+        - [x] Create a `users` table with the following columns:
+          - [x] `id`
+          - [x] `username`
+          - [x] `password`
+          - [x] `first_name`
+          - [x] `last_name`
+          - [x] `email`
+          - [x] `created_at`
+          - [x] `updated_at`
+        - [x] Create a `nutrition` table with the following columns:
+          - [x] `id`
+          - [x] `name`
+          - [x] `category`
+          - [x] `calories`
+          - [x] `image_url`
+          - [x] `user_id`
+          - [x] `created_at`
+        - [x] **Any other tables** that the application might depend on
+    - [x] `lifetracker.sql`
+      - [x] This script should:
+        - [x] 1. Let the user know that they're about to delete the `lifetracker` database and prompt them to confirm that is what they want.
+        - [x] 2. Drop the `lifetracker` database and then create a new `lifetracker` database, before connecting to the `lifetracker` database.
+        - [x] 3. It should then run the `lifetracker-schema.sql` file.
+        - [x] Follow the exact same steps for `1`, `2`, and `3`, but with the `lifetracker_test` database.
+  - [x] Setup the database by running `psql -f lifetracker.sql`
+  - [x] Create a new file at the root of the project called `db.js`. In that file:
+    - [x] Import the `getDatabaseUri` function from the `config.js` file.
+    - [x] Initialize a new PostgreSQL client with the `pg` package and connect to PostgreSQL using any necessary config variables.
+    - [x] Connect to PostgreSQL and log a message to the terminal on success or failure.
     - [ ] Export the connected database client
   - [ ] Commit all work to `git`
   - [ ] A database client is now ready to be used!

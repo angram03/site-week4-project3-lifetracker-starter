@@ -1,8 +1,11 @@
 .App {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   max-width: 100vw;
   min-height: 100vh;
   background: #f7fafc;
+}
+.Basic{
+  display: flex;
 }

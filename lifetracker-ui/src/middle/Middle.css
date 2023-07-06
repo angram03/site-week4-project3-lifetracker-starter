@@ -1,0 +1,23 @@
+.Middle {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(144, 167, 238);
+    font-family: didot;
+    font-weight: bold;
+    border: solid 10px hsl(0, 0%, 100%);
+    border-radius: 25px;
+    height: 400px;
+    
+}
+.Middle img{
+width: 250px;
+height: 250px;
+border-radius: 25px;
+
+}
+
+.Middle h2{
+    padding-left: 90px;
+    font-weight: bolder;
+    font-family: serif;
+}

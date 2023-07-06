@@ -4,3 +4,36 @@
   width: 100%;
   gap: 20px;
 }
+
+.hero-container{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between ;
+  align-items: center;
+  flex-direction: row;
+  /* border: solid black 5px; */
+
+
+ 
+}
+.image{
+  height: 350px;
+  width: 350px;
+  border-radius: 25px;
+}
+
+.Content{
+  
+  margin-left: 500px;
+}
+.Content h1{
+  font-size: 80px;
+}
+.Content p{
+  font-size: 50px;
+}
+
+.image-div{
+ 
+  margin-right: 400px;
+}

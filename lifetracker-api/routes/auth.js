@@ -1,7 +1,9 @@
 const express = require("express")
 const router = express.Router()
+const user = require("../models/user")
 
 router.post("/login", async(req, res, next) => {
+    
     try{
 
     } catch(err){

@@ -30,4 +30,9 @@ CREATE TABLE IF NOT EXISTS exercise (
   created_at TIMESTAMP NOT NULL
  
 );
-
+CREATE TABLE IF NOT EXISTS sleep (
+  id         SERIAL PRIMARY KEY,
+  start_at TIME (0) NOT NULL,
+  end_at TIME (0) NOT NULL
+ 
+);

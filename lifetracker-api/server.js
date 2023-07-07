@@ -19,6 +19,12 @@ app.use(morgan("tiny"))
 
 app.use('/auth', authRoutes)
 
+app.get("/", function(req, res) {
+    return res.status(200).json({
+        ping: "pong"
+    });
+});
+
 
 
 app.use((req, res, next ) => {

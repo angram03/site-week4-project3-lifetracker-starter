@@ -24,13 +24,13 @@ export default function App() {
         <BrowserRouter>
           <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />}/>
+          <Route path="/" element={<Home />}/>
           <Route path="/activity" element={<ActivityPage />}/>
           <Route path="/exercise" element={<ExercisePage />}/>
           <Route path="/nutrition" element={<NutritionPage />}/>
           <Route path="/sleep" element={<SleepPage />} />
           <Route path="/login" element={<LoginForm setAppState={setAppState} />} />
-          <Route path="/register" element={<RegistrationForm />} />
+          <Route path="/register" element={<RegistrationForm setAppState={setAppState}/>} />
         </Routes>
         </BrowserRouter>
 

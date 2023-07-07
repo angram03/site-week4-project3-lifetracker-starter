@@ -6,7 +6,7 @@ export default function Navbar () {
                 <h1 className="title">LifeTracker</h1>
                 <ul>
                     <li>
-                        <a href="/home">HOME</a>
+                        <a href="/">HOME</a>
                     </li>
                     <li>
                         <a href="/activity">ACTIVITY</a>

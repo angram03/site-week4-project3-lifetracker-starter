@@ -1,6 +1,7 @@
 import "./LoginForm.css";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"
+import axios from "axios"
 
 export default function LoginForm({ setAppState }){
   const navigate = useNavigate()
@@ -33,7 +34,7 @@ export default function LoginForm({ setAppState }){
       if (res?.data) {
         setAppState(res.data)
         setIsLoading(false)
-        navigate("/portal")
+        navigate("/")
       } else {
         setErrors((e) => ({ ...e, form: "Invalid username/password combination" }))
         setIsLoading(false)

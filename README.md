@@ -21,6 +21,10 @@ By the end of this project you will be able to...
 
 ## Application Features
 
+<a href="https://www.loom.com/share/37ea1a6e62fd4525a20e2eedbbf0f513">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/37ea1a6e62fd4525a20e2eedbbf0f513-with-play.gif">
+  </a>
+
 ### Core Features
 
 - [x] **The Landing Page:** Display a large hero image and a brief blurb on what this application is about. *Note:* This is the only page that unauthenticated users should be able to view.

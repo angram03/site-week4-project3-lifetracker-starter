@@ -43,7 +43,8 @@ export default function Signup({ setAppState }) {
     setForm((f) => ({ ...f, [event.target.name]: event.target.value }))
   }
 
-  const handleOnSubmit = async () => {
+  const handleOnSubmit = async (event) => {
+    event.preventDefault()
     setIsLoading(true)
     setErrors((e) => ({ ...e, form: null }))
 
@@ -67,7 +68,7 @@ export default function Signup({ setAppState }) {
       if (res?.data?.user) {
         setAppState(res.data)
         setIsLoading(false)
-        navigate("/portal")
+        navigate("/")
       } else {
         setErrors((e) => ({ ...e, form: "Something went wrong with registration" }))
         setIsLoading(false)
@@ -120,7 +121,7 @@ export default function Signup({ setAppState }) {
                 type="text"
                 name="userName"
                 placeholder="username"
-                value={form.firstName}
+                value={form.userName}
                 onChange={handleOnInputChange}
               />
               {errors.firstName && <span className="error">{errors.firstName}</span>}

@@ -34,6 +34,7 @@ export default function LoginForm({ setAppState }){
       if (res?.data) {
         setAppState(res.data)
         setIsLoading(false)
+        
         navigate("/")
       } else {
         setErrors((e) => ({ ...e, form: "Invalid username/password combination" }))

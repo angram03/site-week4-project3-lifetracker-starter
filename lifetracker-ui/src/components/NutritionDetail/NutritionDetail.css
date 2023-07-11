@@ -1,0 +1,42 @@
+.NutritionDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .NutritionDetail .error {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: red;
+  }
+  .NutritionDetail .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+  
+    background: white;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 15px 20px;
+  }
+  
+  .NutritionDetail .edit-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  .NutritionDetail .edit-post textarea {
+    resize: none;
+    flex: 1;
+    height: 100px;
+  }

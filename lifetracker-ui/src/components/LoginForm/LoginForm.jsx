@@ -11,6 +11,7 @@ export default function LoginForm({ setAppState }){
     email: "",
     password: "",
   })
+  
 
   const handleOnInputChange = (event) => {
     if (event.target.name === "email") {
@@ -34,7 +35,7 @@ export default function LoginForm({ setAppState }){
       if (res?.data) {
         setAppState(res.data)
         setIsLoading(false)
-        
+        localStorage.setItem("user", res.data.user.email)
         navigate("/")
       } else {
         setErrors((e) => ({ ...e, form: "Invalid username/password combination" }))

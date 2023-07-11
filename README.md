@@ -21,8 +21,8 @@ By the end of this project you will be able to...
 
 ## Application Features
 
-<a href="https://www.loom.com/share/37ea1a6e62fd4525a20e2eedbbf0f513">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/37ea1a6e62fd4525a20e2eedbbf0f513-with-play.gif">
+<a href="https://www.loom.com/share/f81c46381431492980c172c48ef2757f">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f81c46381431492980c172c48ef2757f-with-play.gif">
   </a>
 
 ### Core Features

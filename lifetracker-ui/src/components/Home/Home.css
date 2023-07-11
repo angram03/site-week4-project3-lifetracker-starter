@@ -37,3 +37,12 @@
  
   margin-right: 400px;
 }
+
+.feed {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 100px;
+}

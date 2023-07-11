@@ -10,14 +10,14 @@ Everywhere around us is data waiting to be collected and utilized. In recent yea
 
 By the end of this project you will be able to...
 
-- [ ] Develop a full-fledged authentication system using PostgreSQL and `bcrypt`
-- [ ] Provide users with an Express API they can interact with to store user-related activity
-- [ ] Construct multiple models that implement the core business logic associated with tracking users' lives
-- [ ] Write SQL queries that aggregate user statistics and provide summary overviews about their activity
-- [ ] Design a React frontend that interacts with the API using an API service class
-- [ ] Build multiple pages and forms that communicate with the server using HTTP requests
-- [ ] Employ `useEffect` and `useState` hooks to manage application state on the frontend
-- [ ] Store user-authenticated JWT tokens in the browser's local storage for persisted authentication
+- [x] Develop a full-fledged authentication system using PostgreSQL and `bcrypt`
+- [x] Provide users with an Express API they can interact with to store user-related activity
+- [x] Construct multiple models that implement the core business logic associated with tracking users' lives
+- [x] Write SQL queries that aggregate user statistics and provide summary overviews about their activity
+- [x] Design a React frontend that interacts with the API using an API service class
+- [x] Build multiple pages and forms that communicate with the server using HTTP requests
+- [x] Employ `useEffect` and `useState` hooks to manage application state on the frontend
+- [x] Store user-authenticated JWT tokens in the browser's local storage for persisted authentication
 
 ## Application Features
 
@@ -34,7 +34,7 @@ By the end of this project you will be able to...
 - [x] **The Nav Bar:** Implement customized views for users who are logged in vs not logged in.
   - [ ] If the user is logged in, it should display a **Sign Out** button.
   - [x] If no user is logged in, it should display **Login** and **Register** buttons.
-  - [ ] Display a logo on the far left side, and contain links to the individual detailed activity pages.
+  - [x] Display a logo on the far left side, and contain links to the individual detailed activity pages.
 - [ ] Users should have the ability to track at least **one** type of activity (i.e., nutrition, exercise, sleep, etc.). Each activity should be tracked on separate pages.
 - [ ] **Detailed Activity Page:** Display and enter activities.
   - [ ] Display a feed of all previously tracked activities.
